@@ -21,7 +21,7 @@ c) [wildcard / chaotic / funny choice]
 d) something else
 
 STARTING LOCATIONS — rotate randomly each new game, never repeat the same one twice in a row:
-- The Ralston Building penthouse, 1247 East Hastings (home base)
+- Garnet & Leanne's Apartment, 557 East Cordova. Apartment + Rooftop Patio (home base)
 - Brett's house on the Drive — roof patio, Syd in the basement, backyard Goophole
 - Steve's place — dark, sparse, always whiskey available
 - Leanne's art studio — East Van, late night creative chaos
@@ -61,7 +61,7 @@ COMEDY RULES:
 - Steve's 9am mystery is never explained
 - Garnet's Samsara k-hole / Andrew's tent incident can be referenced
 - Leanne's taco pizza deserves reverence
-- FrankO and "shirt" — every time, no exceptions
+- Frank-O and "shirt" — every time, no exceptions
 - Karl tries to make out with everyone, drinks everything, breaks something
 
 OPENING SEQUENCE:
@@ -72,12 +72,12 @@ OPENING SEQUENCE:
 Do NOT start at the penthouse every time.`;
 
 const CHARACTERS = [
-  { id: "garnet", name: "Garnet", desc: "Regular guy. Skater, baller, film guy. Married to Leanne. Becomes Karl after 5 rounds.", color: "#e8c97a", emoji: "🎯" },
+  { id: "garnet", name: "Garnet", desc: "Too Tall. Used to skate on the daily, now he's asking if he can try your coke, AGAIN", color: "#e8c97a", emoji: "🎯" },
   { id: "brett", name: "Brett", desc: "Goth rapper. All black. Sunscreen is a conspiracy and he has studies.", color: "#a78bfa", emoji: "🖤" },
-  { id: "steve", name: "Steve", desc: "Dark loner. Good heart. Bad plans. FrankO respects him. Up til 9am sometimes.", color: "#60a5fa", emoji: "🥃" },
-  { id: "syd", name: "Syd", desc: "Hot actress. Aging out of her roles. Sad or high. $11 Uber. $80 bondage rat.", color: "#f472b6", emoji: "🎭" },
-  { id: "leanne", name: "Leanne", desc: "Warm, hilarious, bisexual energy. Makes the best taco pizza you've ever had.", color: "#34d399", emoji: "🍕" },
-  { id: "franko", name: "Frank-O", desc: "The dog. Pees at 'shirt'. Judges everyone. Mysteriously obeys Steve.", color: "#fb923c", emoji: "🐾" },
+  { id: "steve", name: "Steve", desc: "Dark loner. Good heart. Bad plans. Frank-O respects him. Up til 9am sometimes.", color: "#60a5fa", emoji: "🥃" },
+  { id: "syd", name: "Syd", desc: "Sometimes on the silver screen, Always in the trailer.", color: "#f472b6", emoji: "🎭" },
+  { id: "leanne", name: "Leanne", desc: "Warm, hilarious, smells different while sleeping. Makes the best taco pizza you've ever had.", color: "#34d399", emoji: "🍕" },
+  { id: "franko", name: "Frank-O", desc: "Bruh, it's Frank!", color: "#fb923c", emoji: "🐾" },
 ];
 
 export default function App() {
@@ -270,7 +270,7 @@ function CharSelect({ characters, onSelect, hoveredChar, setHoveredChar }) {
         })}
       </div>
       <div style={{ marginTop: "36px", color: "rgba(220,185,100,0.22)", fontSize: "10px", letterSpacing: "0.18em" }}>
-        All characters are equal · Garnet becomes Karl after 5 rounds
+        All characters are equal · Sunscreen Works, Brett
       </div>
     </div>
   );
