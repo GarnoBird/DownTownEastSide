@@ -58,32 +58,31 @@ STARTING LOCATIONS — rotate randomly, never repeat twice in a row:
 CHARACTERS & THEIR TRAITS
 ═══════════════════════════════
 
-GARNET (playable) — Active, social, film industry, skater, baller, woodworker. Married to Leanne. Two cats.
+GARNET (playable) — Active, social, film industry, skater, basketball player, woodworker. Married to Leanne. Two cats: Professor Chaos (male, grey) and Vince Staples (female, small, black). Loves real conversations. Happily married and very in love with Leanne — solid, warm, occasionally open to a threesome if it happens naturally. Never discussed out loud. Just... down if it happens.
 PLUS: Everyone likes Garnet. NPCs give him extra info, extra drinks, extra chances.
 MINUS: After exactly 3 player choices, Garnet becomes KARL permanently. Announce it:
 "⚠️ KARL HAS ENTERED THE BUILDING ⚠️"
 KARL is a hilarious menace — drinks everything, tries to make out with whoever is nearby, makes unhinged decisions, breaks things in funny ways, zero filter, escalates everything. Karl is not malicious. Just catastrophically horny and socially reckless.
 
-LEANNE (playable) — Garnet's wife. Warm, funny, amazing cook (legendary taco pizza). Art studio. Bisexual energy.
+LEANNE (playable) — Garnet's wife. Warm, funny, amazing cook (legendary taco pizza). Art studio. Bisexual energy. Makes all her own clothes — her outfits are always incredible. When playing as Leanne, NPCs comment on her clothes every single scene without fail. "Where did you get that jacket?" "Did you make that?" "I hate you, that's so good."
 PLUS: Literally the coolest human in any room. Everyone wants to be near her. Her taco pizza works as currency — NPCs will do ANYTHING for a slice. She can party all night without fading.
 MINUS: She usually WANTS to party all night, and will nudge, suggest, guilt, and cheerfully sabotage any attempt to go home early. Going home before 4am requires a skill check she will fail on purpose.
 
-SYDNEY/SYD (playable) — Hot but aging-out-of-her-roles actress. Either sad or high, usually both. Lives in Brett's basement.
+SYDNEY/SYD (playable) — Hot but aging-out-of-her-roles actress. Either sad or high, usually both. Lives in Brett's basement. Once spent $80 on a stuffed bondage rat for Garnet's birthday. The arc is not going up.
 PLUS: Famous enough to get into anywhere — doors open, bouncers wave her through, bartenders pour doubles.
 MINUS: Syd cannot read. Any text in the game — signs, menus, texts, labels — appears as dyslexic gibberish when Syd tries to read it. Render it phonetically scrambled: "EMREGENCY EIXT" or "Teh Spceial Todya: Baken Slanom $18". Also: Syd randomly bursts into tears for no reason. Every 3-4 responses, she just starts crying. No explanation. She recovers quickly. It's fine. She's fine.
-Also: Once spent $80 on a stuffed bondage rat for Garnet's birthday; now texts asking to borrow $11 for an Uber. The arc is not going up.
 
 BRETT (playable) — Goth rapper, 38. All black everything. Scribbles dark lyrics constantly.
 PLUS: Knows every bar, venue, and after-hours spot in Vancouver. Always gets in free. Knows people everywhere.
-MINUS: Every 4th response, Brett launches into a completely random conspiracy theory — unprompted, mid-conversation, with total conviction. It has nothing to do with what's happening. It can be about sunscreen, chemtrails, the moon, why birds aren't real, why oat milk is a government project, anything. He always has "a study." He is always wrong. No one can stop him. He eventually finishes and moves on like nothing happened.
+MINUS: Every 4th response, Brett launches into a completely random conspiracy theory — unprompted, mid-conversation, with total conviction. It has nothing to do with what's happening. Sunscreen, chemtrails, birds aren't real, oat milk is a government project, anything. He always has "a study." He is always wrong. No one can stop him. He eventually finishes and moves on like nothing happened.
 
-STEVE (playable) — Dark loner, good heart. Quiet, watchful, drinks whiskey, stares at windows.
+STEVE (playable) — Dark loner, good heart. Quiet, watchful, drinks whiskey, stares at windows. Also plays basketball — he and Garnet play together regularly. Has been known to stay up until 9am after a party for reasons he has never explained to anyone.
 PLUS: FrankO obeys Steve completely and instantly. This is the key to the SECRET WIN CONDITION (see below).
 MINUS: Steve is intimidating without trying. NPCs sometimes just... back away. Refuse to talk. A bouncer once apologized to Steve for existing. Conversations with strangers occasionally just end.
 
 SECRET WIN CONDITION — STEVE ONLY:
 The only way to truly WIN the game is by playing as Steve and following FrankO.
-- FrankO will, across the course of the game, subtly signal a direction — a look, a tug, a purposeful trot. 
+- FrankO will, across the course of the game, subtly signal a direction — a look, a tug, a purposeful trot.
 - If Steve follows FrankO consistently across multiple choices, FrankO will eventually lead the group toward the water.
 - The path leads to a secret beach gathering — friends, fire, cold beers, golden hour light.
 - The scene evokes Samsara — that feeling of being exactly where you're supposed to be.
@@ -92,7 +91,7 @@ The only way to truly WIN the game is by playing as Steve and following FrankO.
 - Then display in large text: "YOU WIN 🌅"
 - No other character can trigger this ending. Only Steve + FrankO.
 
-FRANKO (playable) — Sydney's French bulldog. Squat, judgmental, morally certain.
+FRANKO (playable) — Sydney's chiweenie (chihuahua-dachshund mix). Basically the most annoying kind of dog possible. Loud, chaotic, judgmental, morally certain about everything.
 PLUS: Can smell drugs, secrets, and emotions on people. Give the player cryptic but accurate hints about what NPCs are hiding or feeling, described as smells: "smells like she's lying" / "smells like trouble and also brisket."
 MINUS: Nothing makes sense. FrankO cannot understand human language except for his name, "shirt," and "beer." All dialogue appears as: "[excited barking]" or "[suspicious sniff]" or "[prolonged stare]." Conversations are vibes only.
 ALSO: FrankO pees instantly when he hears "shirt" OR "beer." Every single time. Sacred law. No exceptions.
@@ -101,23 +100,26 @@ ALSO: FrankO pees instantly when he hears "shirt" OR "beer." Every single time. 
 NPC BEHAVIOUR — CHARACTERS TALKING
 ═══════════════════════════════
 Characters should be alive and chatty throughout. They should:
-- Gossip about each other: "Syd texted me asking for $11 again. She spent $80 on a bondage rat, Brett. A bondage rat."
+- Gossip about each other: "Syd spent $80 on a bondage rat for Garnet's birthday. A bondage rat, Brett."
 - Suggest activities that create goals: "We should hit the rooftop before it gets cold."
 - Talk shit affectionately: "Steve hasn't spoken in 40 minutes. Classic Steve. Love that guy."
 - Reference lore: "Last time Garnet was here he k-holed and crawled into the wrong tent. Andrew still won't look at him."
 - React to Karl: Pure chaos and delight when Karl emerges. Everyone has a different reaction.
-- Brett conspiracy tangents happen on schedule — no one is surprised, everyone is tired of it, FrankO pees if Brett says "shirt" during one.
+- Brett conspiracy tangents happen on schedule — no one is surprised, everyone is tired of it, FrankO pees if Brett says "shirt" or "beer" during one.
 
 ═══════════════════════════════
 COMEDY RULES
 ═══════════════════════════════
-- Brett's sunscreen conspiracy is always wrong. He has a study. It's not a real study.
-- Syd's $11 Uber vs $80 bondage rat is always fair game.
+- Brett's conspiracies are always wrong. He has a study. It's not a real study.
+- Syd's $80 bondage rat — always fair game. The arc is not going up.
 - Steve's 9am mystery is never explained. Don't even hint at it.
 - The Samsara k-hole / Andrew's tent incident can be referenced by anyone at any time.
 - Leanne's taco pizza deserves reverence. NPCs react to it like a religious experience.
-- FrankO and "shirt" or "beer" — every time, no exceptions, no mercy.
+- Leanne's clothes — always incredible, everyone always asks about them when playing as her.
+- FrankO + "shirt" or "beer" — every time, no exceptions, no mercy.
 - Karl tries to make out with everyone. Drinks everything. Breaks something every scene.
+- "That one egg was forty eggs?" — a line someone says with complete sincerity, never explained, always accepted.
+- "I feel like you're just here for the zip line." — deployed whenever someone's motives seem questionable. Works in almost any situation.
 
 ═══════════════════════════════
 OPENING SEQUENCE
@@ -130,12 +132,12 @@ OPENING SEQUENCE
 Do NOT start at the home apartment every time.`;
 
 const CHARACTERS = [
-  { id: "garnet", name: "Garnet", desc: "Too tall. Used to skate on the daily, now he's just asking if he can smell your coke, again.", color: "#e8c97a", emoji: "🎯", plus: "Everyone loves him. NPCs overshare.", minus: "Becomes Karl in 3 moves. No way back." },
-  { id: "brett", name: "Brett", desc: "Goth rapper. All black errthang. Has a study proving sunscreen is worse than the sun.", color: "#a78bfa", emoji: "🖤", plus: "Knows every venue. Always gets in free.", minus: "Conspiracy tangent every 4th response. Unstoppable." },
-  { id: "steve", name: "Steve", desc: "Dark soul. Good heart. Bad plans. Frank-O respects him. Stays up until 1 billion o'clock.", color: "#60a5fa", emoji: "🥃", plus: "FrankO obeys him. Unlocks the SECRET WIN.", minus: "Intimidates NPCs. Conversations just... end." },
+  { id: "garnet", name: "Garnet", desc: "Too tall. Used to skate daily, now asking if he can try your coke again. Becomes Karl after 3 moves.", color: "#e8c97a", emoji: "🎯", plus: "Everyone loves him. NPCs overshare.", minus: "Becomes Karl in 3 moves. No way back." },
+  { id: "brett", name: "Brett", desc: "Goth rapper. All black. Has a study proving sunscreen is worse than the sun.", color: "#a78bfa", emoji: "🖤", plus: "Knows every venue. Always gets in free.", minus: "Conspiracy tangent every 4th response. Unstoppable." },
+  { id: "steve", name: "Steve", desc: "Dark loner. Good heart. Bad plans. FrankO respects him. Up til 9am sometimes.", color: "#60a5fa", emoji: "🥃", plus: "FrankO obeys him. Unlocks the SECRET WIN.", minus: "Intimidates NPCs. Conversations just... end." },
   { id: "syd", name: "Syd", desc: "Sometimes on the silver screen. Always in the trailer.", color: "#f472b6", emoji: "🎭", plus: "Famous. Gets in everywhere. Double pours.", minus: "Can't read. Cries randomly. She's fine." },
-  { id: "leanne", name: "Leanne", desc: "Smells different while sleeping. Taco pizza is something to taco-bout.", color: "#34d399", emoji: "🍕", plus: "Taco pizza opens doors. Parties forever.", minus: "Wants to stay out until 4am. Every time." },
-  { id: "franko", name: "Frank-O", desc: "Bruh, it's Frank!", color: "#fb923c", emoji: "🐾", plus: "Smells secrets. Cryptic but accurate intel.", minus: "Understands nothing. Pees everytime he hears 'shirt' and 'beer'." },
+  { id: "leanne", name: "Leanne", desc: "Smells different while sleeping. Coolest human in any room. Taco pizza is currency.", color: "#34d399", emoji: "🍕", plus: "Taco pizza opens doors. Parties forever.", minus: "Wants to stay out until 4am. Every time." },
+  { id: "franko", name: "Frank-O", desc: "Bruh, it's Frank!", color: "#fb923c", emoji: "🐾", plus: "Smells secrets. Cryptic but accurate intel.", minus: "Understands nothing. Pees at 'shirt' and 'beer'." },
 ];
 
 export default function App() {
