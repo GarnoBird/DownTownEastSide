@@ -147,6 +147,8 @@ export default function App() {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [hasWon, setHasWon] = useState(false);
+  const [moveCount, setMoveCount] = useState(0);
+  const [karlActive, setKarlActive] = useState(false);
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
   const conversationRef = useRef([]);
@@ -182,6 +184,8 @@ export default function App() {
     setMessages([]);
     setGoals([]);
     setHasWon(false);
+    setMoveCount(0);
+    setKarlActive(false);
     conversationRef.current = [];
     try {
       const reply = await callClaude(`The player is playing as ${char.name.toUpperCase()}. Their special traits: PLUS — ${char.plus}. MINUS — ${char.minus}. Pick a random starting location (not home base unless it's been a while) and begin. One paragraph, characters talking immediately, mischief-igniting question, then a) b) c) d) choices. Add one natural opening goal.`);
@@ -224,8 +228,21 @@ export default function App() {
     setInput("");
     setIsLoading(true);
     setMessages((p) => [...p, { type: "player", text: trimmed }]);
+
+    const isGarnet = selectedChar?.id === "garnet";
+    const newMoveCount = moveCount + 1;
+    setMoveCount(newMoveCount);
+
+    let message = trimmed;
+    if (isGarnet && !karlActive && newMoveCount === 3) {
+      message = trimmed + "\n\n[SYSTEM: This is Garnet's 3rd move. KARL MUST EMERGE RIGHT NOW in your response. Begin your response with the ⚠️ KARL HAS ENTERED THE BUILDING ⚠️ announcement, then continue the story with Karl's chaotic energy taking over completely.]";
+      setKarlActive(true);
+    } else if (isGarnet && karlActive) {
+      message = trimmed + "\n\n[SYSTEM: Remember — Garnet is now KARL. Karl is drunk, horny, chaotic, tries to make out with everyone, breaks things. Stay in Karl mode.]";
+    }
+
     try {
-      const reply = await callClaude(trimmed);
+      const reply = await callClaude(message);
       setMessages((p) => [...p, { type: "game", text: reply }]);
       setGoals(prev => parseGoals(reply, prev));
       if (reply.includes("YOU WIN")) setHasWon(true);
@@ -279,7 +296,7 @@ export default function App() {
         <GameScreen messages={messages} goals={goals} input={input} setInput={setInput}
           isLoading={isLoading} handleSubmit={handleSubmit} handleKey={handleKey}
           formatText={formatText} bottomRef={bottomRef} inputRef={inputRef}
-          selectedChar={selectedChar} onRestart={restart} hasWon={hasWon} />
+          selectedChar={selectedChar} onRestart={restart} hasWon={hasWon} karlActive={karlActive} />
       )}
 
       <style>{`
@@ -363,7 +380,7 @@ function CharSelect({ characters, onSelect, hoveredChar, setHoveredChar }) {
   );
 }
 
-function GameScreen({ messages, goals, input, setInput, isLoading, handleSubmit, handleKey, formatText, bottomRef, inputRef, selectedChar, onRestart, hasWon }) {
+function GameScreen({ messages, goals, input, setInput, isLoading, handleSubmit, handleKey, formatText, bottomRef, inputRef, selectedChar, onRestart, hasWon, karlActive }) {
   const activeGoals = goals.filter(g => !g.done);
   const doneGoals = goals.filter(g => g.done);
 
@@ -374,7 +391,7 @@ function GameScreen({ messages, goals, input, setInput, isLoading, handleSubmit,
         <div>
           <div style={{ color: "rgba(220,185,100,0.4)", fontSize: "10px", letterSpacing: "0.32em", textTransform: "uppercase", marginBottom: "2px" }}>Vancouver DTES Adventures</div>
           <div style={{ color: "#dbb96a", fontSize: "14px", fontWeight: "bold", letterSpacing: "0.08em" }}>
-            {selectedChar?.emoji} {selectedChar?.name.toUpperCase() || "GARNET"}
+            {selectedChar?.emoji} {karlActive ? "⚠️ KARL" : selectedChar?.name.toUpperCase() || "GARNET"}
           </div>
         </div>
         {/* Goals panel */}
