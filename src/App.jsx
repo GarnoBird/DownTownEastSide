@@ -130,12 +130,12 @@ OPENING SEQUENCE
 Do NOT start at the home apartment every time.`;
 
 const CHARACTERS = [
-  { id: "garnet", name: "Garnet", desc: "Too tall. Used to skate daily, now asking if he can try your coke again. Becomes Karl after 3 moves.", color: "#e8c97a", emoji: "🎯", plus: "Everyone loves him. NPCs overshare.", minus: "Becomes Karl in 3 moves. No way back." },
-  { id: "brett", name: "Brett", desc: "Goth rapper. All black. Has a study proving sunscreen is worse than the sun.", color: "#a78bfa", emoji: "🖤", plus: "Knows every venue. Always gets in free.", minus: "Conspiracy tangent every 4th response. Unstoppable." },
-  { id: "steve", name: "Steve", desc: "Dark loner. Good heart. Bad plans. FrankO respects him. Up til 9am sometimes.", color: "#60a5fa", emoji: "🥃", plus: "FrankO obeys him. Unlocks the SECRET WIN.", minus: "Intimidates NPCs. Conversations just... end." },
+  { id: "garnet", name: "Garnet", desc: "Too tall. Used to skate on the daily, now he's just asking if he can smell your coke, again.", color: "#e8c97a", emoji: "🎯", plus: "Everyone loves him. NPCs overshare.", minus: "Becomes Karl in 3 moves. No way back." },
+  { id: "brett", name: "Brett", desc: "Goth rapper. All black errthang. Has a study proving sunscreen is worse than the sun.", color: "#a78bfa", emoji: "🖤", plus: "Knows every venue. Always gets in free.", minus: "Conspiracy tangent every 4th response. Unstoppable." },
+  { id: "steve", name: "Steve", desc: "Dark soul. Good heart. Bad plans. Frank-O respects him. Stays up until 1 billion o'clock.", color: "#60a5fa", emoji: "🥃", plus: "FrankO obeys him. Unlocks the SECRET WIN.", minus: "Intimidates NPCs. Conversations just... end." },
   { id: "syd", name: "Syd", desc: "Sometimes on the silver screen. Always in the trailer.", color: "#f472b6", emoji: "🎭", plus: "Famous. Gets in everywhere. Double pours.", minus: "Can't read. Cries randomly. She's fine." },
-  { id: "leanne", name: "Leanne", desc: "Smells different while sleeping. Coolest human in any room. Taco pizza is currency.", color: "#34d399", emoji: "🍕", plus: "Taco pizza opens doors. Parties forever.", minus: "Wants to stay out until 4am. Every time." },
-  { id: "franko", name: "Frank-O", desc: "Bruh, it's Frank!", color: "#fb923c", emoji: "🐾", plus: "Smells secrets. Cryptic but accurate intel.", minus: "Understands nothing. Pees at 'shirt' and 'beer'." },
+  { id: "leanne", name: "Leanne", desc: "Smells different while sleeping. Taco pizza is something to taco-bout.", color: "#34d399", emoji: "🍕", plus: "Taco pizza opens doors. Parties forever.", minus: "Wants to stay out until 4am. Every time." },
+  { id: "franko", name: "Frank-O", desc: "Bruh, it's Frank!", color: "#fb923c", emoji: "🐾", plus: "Smells secrets. Cryptic but accurate intel.", minus: "Understands nothing. Pees everytime he hears 'shirt' and 'beer'." },
 ];
 
 export default function App() {
