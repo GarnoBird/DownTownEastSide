@@ -351,11 +351,7 @@ function CharSelect({ characters, onSelect, hoveredChar, setHoveredChar }) {
               style={{ background: isHov ? `rgba(${rgb},0.09)` : "rgba(255,255,255,0.03)", border: `1px solid ${isHov ? char.color : "rgba(220,185,100,0.15)"}`, borderRadius: "4px", padding: "20px 18px", cursor: "pointer", textAlign: "left", transition: "all 0.22s", animation: `cardIn 0.5s ease ${i * 0.07}s both`, boxShadow: isHov ? `0 0 28px rgba(${rgb},0.15)` : "none" }}>
               <div style={{ fontSize: "24px", marginBottom: "8px" }}>{char.emoji}</div>
               <div style={{ color: isHov ? char.color : "#dbb96a", fontSize: "14px", fontWeight: "bold", letterSpacing: "0.1em", marginBottom: "6px", transition: "color 0.2s" }}>{char.name.toUpperCase()}</div>
-              <div style={{ color: "rgba(220,185,100,0.65)", fontSize: "11px", lineHeight: "1.7", marginBottom: "10px" }}>{char.desc}</div>
-              <div style={{ borderTop: "1px solid rgba(220,185,100,0.1)", paddingTop: "8px", display: "flex", flexDirection: "column", gap: "4px" }}>
-                <div style={{ fontSize: "10px", color: "#34d399", opacity: 0.8 }}>+ {char.plus}</div>
-                <div style={{ fontSize: "10px", color: "#e85d4a", opacity: 0.8 }}>− {char.minus}</div>
-              </div>
+              <div style={{ color: "rgba(220,185,100,0.65)", fontSize: "11px", lineHeight: "1.7" }}>{char.desc}</div>
             </button>
           );
         })}
