@@ -204,24 +204,23 @@ export default function App() {
 
   const callClaude = async (userMessage) => {
     conversationRef.current = [...conversationRef.current, { role: "user", content: userMessage }];
-    const res = await fetch("https://api.x.ai/v1/chat/completions", {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${import.meta.env.VITE_GROK_API_KEY}`,
+        "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY,
+        "anthropic-version": "2023-06-01",
+        "anthropic-dangerous-direct-browser-access": "true",
       },
       body: JSON.stringify({
-        model: "grok-4-latest",
+        model: "claude-sonnet-4-6",
         max_tokens: 700,
-        messages: [
-          { role: "system", content: SYSTEM_PROMPT },
-          ...conversationRef.current,
-        ],
+        system: SYSTEM_PROMPT,
+        messages: conversationRef.current,
       }),
     });
     const data = await res.json();
-    console.log('Grok response:', JSON.stringify(data));
-    const text = data.choices?.[0]?.message?.content || "...";
+    const text = data.content?.map((b) => b.text || "").join("") || "...";
     conversationRef.current = [...conversationRef.current, { role: "assistant", content: text }];
     return text;
   };
