@@ -220,6 +220,7 @@ export default function App() {
       }),
     });
     const data = await res.json();
+    console.log('Grok response:', JSON.stringify(data));
     const text = data.choices?.[0]?.message?.content || "...";
     conversationRef.current = [...conversationRef.current, { role: "assistant", content: text }];
     return text;
